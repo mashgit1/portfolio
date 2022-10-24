@@ -1,0 +1,61 @@
+h1 {
+  color: hsla(279, 100%, 50%, 1);
+}
+
+h2 {
+  color: hsla(67, 32%, 27%, 1);
+}
+
+h3 {
+  color: hsla(15, 100%, 28%, 1);
+}
+
+p {
+  color: gray;
+}
+
+body {
+  background-color: papayawhip;
+}
+
+.important {
+  font-weight: bold;
+}
+
+.important:hover {
+  background-color: lavender;
+}
+
+a[href="images/leaves.jpg"] {
+  background-color: orange;
+  padding: 1rem;
+}
+a[href="images/mountains-landscape.jpg"] {
+  background-color: orange;
+  padding: 1rem;
+}
+a[href="images/daisies.jpg"] {
+  background-color: orange;
+  padding: 1rem;
+}
+a[href="images/branch.jpg"] {
+  background-color: orange;
+  padding: 1rem;
+}
+a[href="images/flowers.jpg"] {
+  background-color: orange;
+  padding: 1rem;
+}
+h1 {
+  color: purple;
+  border-style: solid;
+  border-width: 2px;
+  border-color: thistle;
+}
+
+img {
+  border-style: solid;
+  border-color: orange;
+  border-width: 3px;
+  width:25%;
+}
