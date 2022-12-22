@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang= "en">
+  <head>
+    <meta charset="utf-8">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <script src="https://kit.fontawesome.com/6fb192a33c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Slabo+27px&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <h1>Submit a Request</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="form.html">Project 1</a>
+          <a href="#">Project 2</a>
+          <a href="#">Project 3</a>
+          </nav>
+      </header>
+
+        <form method="GET">
+            <label>Your Name: 
+                <input type="text" name="applicantName">
+            </label>
+
+            <label>Your Email: 
+                <input type="email" name="ApplicantEmail">
+            </label>
+
+            <label for="city">What city are you in?</label>
+                <input id="city" type="text" name="applicantCity">
+
+            <label> How many requests are you submitting?
+                <input type="number"  name="requestCount">
+            </label>
+
+            <label> What is your request?
+                <textarea name="applicantReason" rows="4" cols="50"></textarea>
+            </label>
+
+            <fieldset> 
+            <legend>What type of request are you going to submit?</legend>          
+            <label>Support
+                <input type="checkbox" name="type" value="support">
+            </label>
+            <label>Event Consult
+                <input type="checkbox" name="type" value="consult">
+            </label>
+            <label>Other
+                <input type="checkbox" name="type" value="other">
+            </label>
+            </fieldset>    
+
+            <fieldset> 
+            <legend>Are you interested in learning more information about services offered?</legend>          
+            <label>Yes
+                <input type="radio" name="special" value="yes">
+            </label>
+            <label>No
+                <input type="radio" name="special" value="no">
+            </label>
+            </fieldset>   
+
+            <label>How many hours will this project take?
+                <select name="hours">
+                    <option value="">Please select</option>
+                    <option value="few">less than 5</option>
+                    <option value="some">5 to 10</option>
+                    <option value="many">more than 10</option>
+                </select>
+            </label>
+
+            <label>To create account, enter a password
+                <input type="password" name="accountPW">
+            </label>
+
+            <input type="submit">
+
+
+    </form>
+    <footer>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="form.html">Project 1</a>
+        <a href="#">Project 2</a>
+        <a href="#">Project 3</a>
+        </nav>
+      <p>© 2022 Projects | Seattle, WA</p>
+    </footer>
+
+  </body>
+</html>
