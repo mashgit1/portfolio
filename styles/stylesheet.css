@@ -80,6 +80,18 @@ input[type=password]:focus{
     background-color: seagreen;
     outline: none;
 }
+input[type=number]:focus{
+  background-color: aquamarine;
+  outline: none;
+}
+input[type=text]:focus{
+  background-color: cadetblue;
+  outline: none;
+}
+input[type=email]:focus{
+  background-color: darkolivegreen;
+  outline: none;
+}
 input {
     border-radius: 15px;
 }
